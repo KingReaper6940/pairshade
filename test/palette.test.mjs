@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {parsePalette,audit,alternatives,exportCSS,exportReport} from '../src/palette.mjs';
+const palette=parsePalette('ink: #000\npaper: #fff\nmuted: #777');
+test('named palette canonicalizes colors and names',()=>{assert.deepEqual(parsePalette('\nInk: #abc\npaper: #fff'),[{name:'ink',hex:'#AABBCC'},{name:'paper',hex:'#FFFFFF'}]);});
+test('rejects duplicate names and injection syntax',()=>{for(const s of ['Ink: #000\nink: #fff','x};: #000\ny: #fff','ink: red\npaper: #fff','only: #000'])assert.throws(()=>parsePalette(s));});
+test('bounded palettes',()=>{assert.throws(()=>parsePalette('x'.repeat(8001)));assert.throws(()=>parsePalette(Array.from({length:17},(_,i)=>'x'+i+': #000').join('\n')));});
+test('audit enumerates ordered pairs and reports failures',()=>{const r=audit(palette);assert.equal(r.length,9);assert.equal(r.find(x=>x.foreground==='muted'&&x.background==='paper').normalAA,false);assert.equal(r.find(x=>x.foreground==='ink'&&x.background==='paper').ratio,21);});
+test('alternatives use only existing tokens and meet target',()=>{assert.deepEqual(alternatives(palette,'#fff',4.5,'muted').map(x=>x.name),['ink']);assert.deepEqual(alternatives([{name:'gray',hex:'#777777'}],'#fff',7,'none'),[]);});
+test('CSS and JSON exports preserve canonical palette and unrounded ratios',()=>{assert.match(exportCSS(palette),/--ink: #000000;/);const r=JSON.parse(exportReport(palette));assert.deepEqual(r.palette,palette);assert.equal(r.pairs[5].ratio,audit(palette)[5].ratio);assert.equal(r.thresholds.normalAA,4.5);});

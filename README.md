@@ -2,6 +2,8 @@
 
 Put your palette to work.
 
+**[Open Pairshade](https://pairshade.vercel.app/)**
+
 Pairshade is a browser-local workbench for named color tokens. Audit every text/surface combination, preview a pairing, and find passing alternatives already in your palette.
 
 ## Features
@@ -61,3 +63,4 @@ The JSON report includes every ordered pair, including a token against itself; a
 - public/: responsive browser interface.
 - test/: reference-value, threshold-boundary, validation, and export checks.
 - examples/palette.txt: editable sample palette.
+

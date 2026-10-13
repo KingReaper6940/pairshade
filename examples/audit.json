@@ -1,0 +1,361 @@
+{
+  "method": "WCAG 2.x relative luminance, opaque sRGB",
+  "thresholds": {
+    "normalAA": 4.5,
+    "largeAA": 3,
+    "normalAAA": 7,
+    "largeAAA": 4.5
+  },
+  "palette": [
+    {
+      "name": "ink",
+      "hex": "#182A36"
+    },
+    {
+      "name": "paper",
+      "hex": "#FAF8F2"
+    },
+    {
+      "name": "brand",
+      "hex": "#235D50"
+    },
+    {
+      "name": "mint",
+      "hex": "#D6EBDC"
+    },
+    {
+      "name": "muted",
+      "hex": "#888888"
+    },
+    {
+      "name": "white",
+      "hex": "#FFFFFF"
+    }
+  ],
+  "pairs": [
+    {
+      "foreground": "ink",
+      "background": "ink",
+      "ratio": 1,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 13.893086226371905,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "ink",
+      "background": "brand",
+      "ratio": 1.9342780219490028,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "ink",
+      "background": "mint",
+      "ratio": 11.786773521185802,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "ink",
+      "background": "muted",
+      "ratio": 4.1622000104578945,
+      "normalAA": false,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "ink",
+      "background": "white",
+      "ratio": 14.75452544239121,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "ink",
+      "ratio": 13.893086226371905,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "paper",
+      "ratio": 1,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "paper",
+      "background": "brand",
+      "ratio": 7.1825694490252525,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "paper",
+      "background": "mint",
+      "ratio": 1.17870138095045,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "paper",
+      "background": "muted",
+      "ratio": 3.3379189350498057,
+      "normalAA": false,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "paper",
+      "background": "white",
+      "ratio": 1.0620048851625292,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "brand",
+      "background": "ink",
+      "ratio": 1.9342780219490028,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "brand",
+      "background": "paper",
+      "ratio": 7.1825694490252525,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "brand",
+      "background": "brand",
+      "ratio": 1,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "brand",
+      "background": "mint",
+      "ratio": 6.093629451111326,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": true
+    },
+    {
+      "foreground": "brand",
+      "background": "muted",
+      "ratio": 2.151810630751007,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "brand",
+      "background": "white",
+      "ratio": 7.627923842883954,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "mint",
+      "background": "ink",
+      "ratio": 11.786773521185802,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "mint",
+      "background": "paper",
+      "ratio": 1.17870138095045,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "mint",
+      "background": "brand",
+      "ratio": 6.093629451111326,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": true
+    },
+    {
+      "foreground": "mint",
+      "background": "mint",
+      "ratio": 1,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "mint",
+      "background": "muted",
+      "ratio": 2.831861393390634,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "mint",
+      "background": "white",
+      "ratio": 1.2517866247171974,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "muted",
+      "background": "ink",
+      "ratio": 4.1622000104578945,
+      "normalAA": false,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "muted",
+      "background": "paper",
+      "ratio": 3.3379189350498057,
+      "normalAA": false,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "muted",
+      "background": "brand",
+      "ratio": 2.151810630751007,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "muted",
+      "background": "mint",
+      "ratio": 2.831861393390634,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "muted",
+      "background": "muted",
+      "ratio": 1,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "muted",
+      "background": "white",
+      "ratio": 3.5448862152994005,
+      "normalAA": false,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "white",
+      "background": "ink",
+      "ratio": 14.75452544239121,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "white",
+      "background": "paper",
+      "ratio": 1.0620048851625292,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "white",
+      "background": "brand",
+      "ratio": 7.627923842883954,
+      "normalAA": true,
+      "largeAA": true,
+      "normalAAA": true,
+      "largeAAA": true
+    },
+    {
+      "foreground": "white",
+      "background": "mint",
+      "ratio": 1.2517866247171974,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "white",
+      "background": "muted",
+      "ratio": 3.5448862152994005,
+      "normalAA": false,
+      "largeAA": true,
+      "normalAAA": false,
+      "largeAAA": false
+    },
+    {
+      "foreground": "white",
+      "background": "white",
+      "ratio": 1,
+      "normalAA": false,
+      "largeAA": false,
+      "normalAAA": false,
+      "largeAAA": false
+    }
+  ]
+}
